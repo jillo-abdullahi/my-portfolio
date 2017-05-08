@@ -7,7 +7,9 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+.navbar {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .intro-header {
 	background: url(../images/intro-bg.jpg) no-repeat center center;
 	background-size: cover;
@@ -21,12 +23,22 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-	text-align: center;
+	text-align: center; 
 }
-.intro-message > h1 {
+.intro-message > h1{
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+	color: #f1c40f;
+	
+}
+
+.intro-message > h3{
+    margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	letter-spacing: 1px;
+    font-size: 1.5em;
+	
 }
 
 .intro-divider {
@@ -34,3 +46,5 @@ h1,h2,h3,h4,h5,h6 {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+/*Sections*/
+
