@@ -48,4 +48,23 @@ h1,h2,h3,h4,h5,h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 /*Sections*/
+#section-footer {
+	height: 200px;
+	background: url(../images/img-footer.jpg) no-repeat center center;
+	background-size: cover;
+}
+#section-footer ul {
+	margin-top: 80px;
+	margin-left: 150px;
+}
+#section-footer  h3{
+	margin-top: 20px;
+	text-shadow: 2px 2px 3px #000000;
+	letter-spacing: 1px;
+    font-size: 3em;
+	color: #ecf0f1;
+}
+#footer {
+	background-color: #e67e22;
+}
 
