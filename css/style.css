@@ -134,4 +134,8 @@ p {
 .section-divider {
 	border: 1px solid #95a5a6;
 }
+#section-projects {
+	padding-top: 20px;
+	border-bottom: 1px solid #95a5a6;
+}
 
