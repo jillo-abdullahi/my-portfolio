@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+p {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.5em;
+}
 .navbar {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -72,16 +76,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*Sections*/
 #section-footer {
-	height: 300px;
+	height: 200px;
 	background: url(../images/img-footer.jpg) no-repeat center center;
 	background-size: cover;
 }
 .footer-social-buttons {
+	margin-top: 50px;
 	float: right;
 	margin-bottom: 0;
 }
 #section-footer  h3{
-	margin-top: 50px;
+	margin-top: 30px;
 	text-shadow: 2px 2px 3px #000000;
 	letter-spacing: 1px;
     font-size: 3em;
@@ -118,5 +123,19 @@ h1,h2,h3,h4,h5,h6 {
     ul.footer-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+#section-services {
+	padding-top: 20px;
+	background-color: #ecf0f1;
+	border-top: 1px solid #95a5a6;
+	border-top: 1px solid #95a5a6;
+}
+.section-divider {
+	border: 1px solid #95a5a6;
+}
+#section-projects {
+	padding-top: 20px;
+	border-bottom: 1px solid #95a5a6;
 }
 
