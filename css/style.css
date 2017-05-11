@@ -129,7 +129,7 @@ p {
 	padding-top: 20px;
 	background-color: #ecf0f1;
 	border-top: 1px solid #95a5a6;
-	border-top: 1px solid #95a5a6;
+	border-bottom: 1px solid #95a5a6;
 }
 .section-divider {
 	border: 1px solid #95a5a6;
@@ -138,4 +138,6 @@ p {
 	padding-top: 20px;
 	border-bottom: 1px solid #95a5a6;
 }
-
+#section-contact {
+	background-color: #ecf0f1;
+}
