@@ -31,7 +31,7 @@ p {
 }
 .intro-message > h1{
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     font-size: 5em;
 	color: #f1c40f;
 	
@@ -75,7 +75,7 @@ p {
     }
 }
 /*Sections*/
-#section-footer {
+.section-footer {
 	height: 200px;
 	background: url(../images/img-footer.jpg) no-repeat center center;
 	background-size: cover;
@@ -85,14 +85,14 @@ p {
 	float: right;
 	margin-bottom: 0;
 }
-#section-footer  h3{
+.section-footer  h3{
 	margin-top: 30px;
 	text-shadow: 2px 2px 3px #000000;
 	letter-spacing: 1px;
     font-size: 3em;
 	color: #ecf0f1;
 }
-#footer {
+.footer {
 	background-color: #e67e22;
 }
 .network-name {
@@ -101,12 +101,18 @@ p {
     font-weight: 400;
     letter-spacing: 2px;
 }
+.footer-network-name {
+	text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
 @media(max-width:1199px) {
     ul.footer-social-buttons {
         float: left;
         margin-top: 15px;
     }
-	#section-footer h3 {
+	.section-footer h3 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 1.5em;
@@ -118,10 +124,11 @@ p {
     }
 }
 @media(max-width:767px) {
-    #section-footer h3 {
+    .section-footer h3 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 1.5em;
+		padding-top: 10px;
     }
 
     ul.footer-social-buttons > li {
@@ -136,28 +143,40 @@ p {
 	
 }
 
-#section-services {
+.section-services {
 	padding-top: 20px;
 	background-color: #ecf0f1;
 	border-top: 1px solid #95a5a6;
 	border-bottom: 1px solid #95a5a6;
 }
 
-#section-services-b {
+.section-services-b {
 	padding-top: 20px;
 	border-bottom: 1px solid #95a5a6;
 	padding-bottom: 20px;
 }
 .section-divider {
-	border: 1px solid #95a5a6;
+	border: 3px solid #95a5a6;
+	border-radius: 2px;
+	
 }
-#section-projects {
+.section-header {
+	color:#f1c40f;
+	text-shadow: 1px 1px 1px #000;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+.section-projects {
 	padding-top: 20px;
 	border-bottom: 1px solid #95a5a6;
 	background-color: #ecf0f1;
 	border-bottom: 1px solid #95a5a6;
 	
 }
-#section-contact {
-	background-color: #ecf0f1;
+.thumbnail {
+	border: 1px solid #95a5a6;
 }
+.section-contact {
+	padding-top: 20px;
+}
+
