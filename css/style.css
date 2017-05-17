@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .navbar {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -88,7 +88,6 @@ p {
 .section-footer  h3{
 	
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
-	letter-spacing: 1px;
     font-size: 2em;
 	color: #f1c40f;
 }
@@ -129,6 +128,12 @@ p {
         margin-bottom: 20px;
         padding: 0;
     }
+	.footer-nav{
+		display: inline;
+		margin-top: 30px;
+		width: 100%;
+		margin-left: 3px;
+	}
 }
 @media(max-width:767px) {
     .section-footer h3 {
@@ -147,6 +152,11 @@ p {
     ul.footer-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+	.footer-nav{
+		margin-top: 10px;
+		width: 60%;
+		margin-left: 3px;
+	}
 	
 }
 
@@ -181,6 +191,10 @@ p {
 	
 }
 .thumbnail {
+	border: 1px solid #95a5a6;
+	background-color: #7f8c8d;
+}
+img.thumbnail {
 	border: 1px solid #95a5a6;
 }
 .section-contact {
