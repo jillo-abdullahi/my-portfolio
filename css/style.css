@@ -76,7 +76,7 @@ p {
 }
 /*Sections*/
 .section-footer {
-	height: 150px;
+	height: 180px;
 	background: url(../images/img-footer.jpg) no-repeat center center;
 	background-size: cover;
 }
