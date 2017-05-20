@@ -11,7 +11,10 @@ p {
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 1.3em;
 }
-.navbar {
+.top-nav {
+	font-size: 14px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .intro-header {
@@ -74,33 +77,25 @@ p {
     .intro-divider {
         width: 100%;
     }
-}
-
-@media(max-width:767px) {	
+	
 	.section-footer h3 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 1em;
-		padding-top: 10px;
-		color: red;
+        font-size: 3em;
     }
 
-    /*ul.footer-social-buttons > li {
+    ul.footer-social-buttons > li {
         display: block;
-        margin: 0;
+        margin-bottom: 20px;
         padding: 0;
     }
 
     ul.footer-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-	/*.footer-nav {
-		display: inline-block;
-		margin-top: 10px;
-		width: 100px;
-		margin-left: 3px;
-	}*/
 }
+
+
 /*tablets*/
 @media(max-width:1199px) {
     ul.footer-social-buttons {
@@ -113,10 +108,9 @@ p {
         font-size: 0.5em;
 		color:red;
     }
-	ul.footer-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
+	ul.footer-social-buttons {
+        float: left;
+        margin-top: 15px;
     }
 	
 	ul.footer-nav > li{
@@ -128,19 +122,22 @@ p {
 }
 /*Sections*/
 .section-footer {
-	height: 180px;
+	padding: 100px 0;
 	background: url(../images/img-footer.jpg) no-repeat center center;
 	background-size: cover;
 }
-.footer-social-buttons {
-	margin-top: 50px;
-	float: right;
+.section-footer ul {
 	margin-bottom: 0;
 }
+
+.footer-social-buttons {
+	float: right;
+    margin-top: 0;
+}
 .section-footer  h3{
-	
+	margin: 0;
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
-    font-size: 2em;
+    font-size: 3em;
 	color: #f1c40f;
 }
 .footer-nav {
@@ -149,9 +146,6 @@ p {
 	padding: 5px;
 	width: 40%;
 	text-align: center;
-}
-.footer {
-
 }
 .network-name {
     text-transform: uppercase;
@@ -206,5 +200,16 @@ img.thumbnail {
 }
 .section-contact {
 	padding-top: 20px;
+}
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+footer a{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+p.copyright {
+    margin: 15px 0 0;
 }
 
