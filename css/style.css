@@ -177,8 +177,11 @@ p {
 .section-projects {
 	padding-top: 20px;
 	border-bottom: 1px solid #95a5a6;
-	background-color: #ecf0f1;
+}
+.section-projects-pending {
+  padding-top: 20px;
 	border-bottom: 1px solid #95a5a6;
+  background-color: #ecf0f1;
 
 }
 .thumbnail {
