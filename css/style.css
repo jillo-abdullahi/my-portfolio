@@ -54,6 +54,10 @@ p {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+.thumbnail {
+    font-size: 0.8em;
+    height: 220px;/*Change this later for responsiveness*/
+}
 /*Phones*/
 @media(max-width:767px) {
     .intro-message {
