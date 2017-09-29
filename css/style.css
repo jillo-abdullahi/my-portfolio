@@ -82,6 +82,7 @@ p {
 }
 
 
+
 /*Phones*/
 @media(max-width:767px) {
     .intro-message {
@@ -223,6 +224,7 @@ img.thumbnail {
 }
 .section-contact {
 	padding-top: 20px;
+    font-size: 0.8em;
 }
 footer {
     padding: 50px 0;
